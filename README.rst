@@ -5,6 +5,7 @@ bl4s_viewer
 An event display for the 2014 `Beamline for Schools`_ experiment.
 
 This repo is for building a `Docker`_ image of the software that can run on any operating system with X11. If you have Docker installed you can download and run the image like so::
+
     docker pull brookst/bl4s_viewer
     docker run -ti --rm -e DISPLAY="$DISPLAY" -v /tmp/.X11-unix:/tmp/.X11-unix brookst/bl4s_viewer
 
